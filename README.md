@@ -13,10 +13,10 @@ cd lib/
 make
 ```
 
-2. _**Add a configuration file**_
+2. **Add a configuration file**
 
 An example configuration for SEAnet is given in *conf/example.json*.
-Two fields with **TO_BE_CHANGED** are required to get changed.
+Two fields with *TO_BE_CHANGED* are required to get changed.
 
 > **database_path**: indicates the dataset to be indexed \
 > **query_path**: indicates the query set
@@ -24,25 +24,25 @@ Two fields with **TO_BE_CHANGED** are required to get changed.
 Other fields could be left by default.
 Please refer to *util/conf.py* for all possible configurations.
 
-3. _**Train SEAnet**_
+3. **Train SEAnet**
 
 ```bash
 python run.py -C conf/example.json
 ```
 
-## Approximate Similarity Search on DEA
+## Approximate Similarity Search
 
-The indexing and query answering of DEA is in https://github.com/qtwang/isax-modularized.
+The indexing and query answering of DEA is in https://github.com/qtwang/isax-modularized
 
 ## Cite this work
 
 ```latex
-@online{web20-SEAnet,
-  author = {Wang, Qitong and 
-            Palpanas, Themis},
-  title  = {SEAnet Codebase},
-  url    = {https://github.com/qtwang/SEAnet},
-  year   = {2020},
+@online{web20-Wang-SEAnet,
+  author    = {Wang, Qitong and 
+               Palpanas, Themis},
+  title     = {SEAnet Codebase},
+  url       = {https://github.com/qtwang/SEAnet},
+  year      = {2020},
   timestamp = {Tue, 02 Dec 2020 01:59:59 +0100},
 }
 ```
