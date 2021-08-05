@@ -37,7 +37,7 @@ The indexing and query answering of DEA is in https://github.com/qtwang/isax-mod
 ## Cite this work
 
 ```latex
-@inproceedings{DBLP:conf/kdd/JinQFD00ZS20,
+@inproceedings{kdd21-Wang-SEAnet,
   author    = {Wang, Qitong and 
                Palpanas, Themis},
   title     = {Deep Learning Embeddings for Data Series Similarity Search},
